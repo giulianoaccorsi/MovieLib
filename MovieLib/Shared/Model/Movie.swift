@@ -8,6 +8,6 @@
 import Foundation
 
 struct Movie: Decodable {
-    let title, categories, duration, summary, image: String
+    let title, movieCategories, duration, movieSummary, image: String
     let rating: Double
 }
